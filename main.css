@@ -12,6 +12,12 @@ body{
     overflow: hidden;
 }
 
+.game{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #gameCanvas{
     border:2px solid black;
 }
